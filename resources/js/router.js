@@ -37,10 +37,6 @@ const router = new Router({
             path: '/mypage',
             name: 'mypage',
             component: Mypage,
-
-            meta: {
-                requiresAuth: true
-            }
         },
         {
             path: '/keyword',
@@ -63,12 +59,12 @@ router.beforeEach((to, from, next) => {
             }
         }).catch(error => {
             if (error.response.status === 401) {
-                alert("未承認のユーザーのためログイン画面でログインを行ってください");
+                alert("未認証のユーザーのためログイン画面でログインを行ってください");
             } else {
                 alert("予期しないエラーが発生しました。再度ログインを行ってください");
             }
             next({
-                path: '/login'
+                path: '/login',
             })
         });
     } else {

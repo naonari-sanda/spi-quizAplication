@@ -147,7 +147,7 @@ export default {
           location.href = "/";
         } else {
           this.findNextQuiz(0);
-          loader.hede();
+          loader.hide();
         }
       })
       .catch((error) => {
