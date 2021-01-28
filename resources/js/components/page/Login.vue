@@ -90,6 +90,9 @@
                       <button type="submit" class="btn btn-primary">
                         ログイン
                       </button>
+                      <button @click="geust" class="btn btn-primary">
+                        簡単ログイン
+                      </button>
 
                       <a class="btn btn-link" href>パスワードをお忘れですか?</a>
                     </div>
@@ -141,6 +144,9 @@ export default {
       if (isValid) {
         document.querySelector("#login").submit();
       }
+    },
+    geust() {
+      (this.email = "test@test.com"), (this.password = "wqwqwqwq");
     },
   },
 };
