@@ -1,7 +1,7 @@
 # 概要
 
-こちらはクイズアプリケーションのチュートリアルで作成した物です(SPI化)
-https://laravel-vue--quiz.herokuapp.com/
+- こちらはクイズアプリケーションのチュートリアルで作成した物です(SPI化)
+- https://laravel-vue--quiz.herokuapp.com/
 
 ## なぜこのアプリを制作したか
 - LaravelとVue.jsの連携をしたかった。
