@@ -26,6 +26,7 @@
  ## 技術
 - PHP / 7.3
 - Laravel / 6.8
+- axios / 0.19.0
 - Vue.js / 2.6.10
 - Vue-router / 3.1.3
 - Node.js / 10
