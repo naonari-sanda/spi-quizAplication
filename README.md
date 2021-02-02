@@ -1,7 +1,7 @@
 # URL
 
 - https://laravel-vue--quiz.herokuapp.com/
-- ＊ログイン画面にて簡単ログインができます
+- ログイン画面にて簡単ログインができます
 
 # 概要
 
