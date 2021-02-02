@@ -1,8 +1,11 @@
+# URL
+
+- https://laravel-vue--quiz.herokuapp.com/
+- ＊ログイン画面にて簡単ログインができます
+
 # 概要
 
 - こちらはクイズアプリケーションのチュートリアルで作成した物です(SPI化)
-- https://laravel-vue--quiz.herokuapp.com/
-- ＊ログイン画面にて簡単ログインができます
 
 ## なぜこのアプリを制作したか
 - LaravelとVue.jsの連携をしたかった。
